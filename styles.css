@@ -1,0 +1,183 @@
+body {
+  font-family: "Roboto", "Open", sans-serif;
+  color: #555252;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400px;
+  width: 1110px;
+}
+
+.app {
+  text-transform: uppercase;
+  padding: 40px 30px;
+  font-family: "Open";
+  font-weight: 700px;
+  color: #0f0101;
+}
+
+.app:hover {
+  color: #1abc9c;
+}
+
+
+nav p {
+  font-family: "Roboto";
+  font-weight: 300px;
+  color: #555252;
+}
+
+nav p::first-letter {
+  color: #38c1a4;
+}
+
+ul {
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+}
+
+.nav {
+  float: right;
+}
+
+.nav li {
+  float: left;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav li:not(:last-child) {
+  margin-right: 30px;
+}
+
+
+h1,
+h2 {
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #515151;
+  line-height: 32px;
+  font-family: Roboto, sans-serif;
+}
+
+h1::after {
+  display: block;
+  height: 7px;
+  width: 164px;
+  background-color: #1abc9c;
+  content: "";
+  margin: 32px auto;
+}
+
+h2::after {
+  display: block;
+  height: 7px;
+  width: 164px;
+  background-color: #1abc9c;
+  content: "";
+  margin: 32px auto;
+}
+
+.goods {
+  width: 255px;
+  height: 322px;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 32px;
+  color: #ffffff;
+  text-transform: uppercase;
+  float: left;
+}
+
+.item-image {
+  width: 255px;
+  height: 282px;
+  background-color: #e9f0fd;
+}
+
+.item-call {
+
+  width: 187px;
+  padding-left: 14px;
+  background-color: #323232;
+  float: left;
+  color: #ffff;
+}
+
+.imae-price {
+  width: 54px;
+  text-align: center;
+  background-color: #8c8c8c;
+  float: left;
+  margin: auto;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+
+
+.goods:hover .item-call {
+  background-color: #1abc9c;
+}
+
+.goods:hover .imae-price {
+  background-color: #7fd9c7;
+}
+
+.list li:not(:nth-child(4n)) {
+  margin: 0 30px 30px 0;
+}
+
+
+.elements li:not(:nth-child(3n)) {
+  margin: 0 30px 0 0;
+}
+
+.item-bottom {
+  float: left;
+  width: 350px;
+}
+
+.style {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.style:after {
+  display: block;
+  height: 3px;
+  width: 136px;
+  background-color: #1abc9c;
+  content: "";
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid #4ec6ab;
+  background-color: #4ec6ab;
+  cursor: pointer;
+  color: white;
+  padding: 5px 20px;
+  width: 160px;
+  height: 50px;
+}
