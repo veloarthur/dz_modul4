@@ -3,31 +3,42 @@ body {
   color: #555252;
   font-size: 14px;
   line-height: 26px;
-  font-weight: 400px;
+  font-weight: 400;
   width: 1110px;
+  margin: 0 auto;
+}
+
+
+
+nav p {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 300;
+  color: #555252;
+  text-transform: uppercase;
+  padding: 30px 0;
+  margin: auto;
+  line-height: 32px;
+}
+
+nav p::first-letter {
+  color: #1abc9c;
 }
 
 .app {
   text-transform: uppercase;
-  padding: 40px 30px;
-  font-family: "Open";
-  font-weight: 700px;
+  font-family: "Open", sans-serif;
+  line-height: 11px;
+  font-weight: 700;
   color: #0f0101;
+}
+
+.app a {
+  font-weight: 700px;
 }
 
 .app:hover {
   color: #1abc9c;
-}
-
-nav p {
-  font-family: "Roboto";
-  font-weight: 300px;
-  color: #555252;
-  text-transform: uppercase;
-}
-
-nav p::first-letter {
-  color: #38c1a4;
 }
 
 ul {
@@ -46,6 +57,8 @@ ul {
 
 .nav {
   float: right;
+  padding: 30px 0;
+  margin: auto;
 }
 
 .nav li {
@@ -70,18 +83,18 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   color: #515151;
-  line-height: 32px;
+  line-height: 48px;
   font-family: Roboto, sans-serif;
 }
 
-h1::after {
+/* h1::after {
   display: block;
   height: 7px;
   width: 164px;
   background-color: #1abc9c;
   content: "";
   margin: 32px auto;
-}
+} */
 
 h2::after {
   display: block;
