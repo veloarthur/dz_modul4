@@ -173,7 +173,7 @@ img {
   content: "";
 }
 
-button {
+.bot {
   border-radius: 5px;
   border: 1px solid #4ec6ab;
   background-color: #4ec6ab;
